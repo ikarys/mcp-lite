@@ -11,7 +11,7 @@ processes:
 convention:
   version: "0.1"
   level: 2
-  adopted_at: ADOPTED_AT
+  adopted_at: 33a7d8b
   status: active
   tools:
     - "Claude Code:claude-opus-5-5"
@@ -64,3 +64,4 @@ Active, early. Vulnerabilities are reported privately and acknowledged within 7 
 
 - D3: the history starts at the extraction from fennec on 2026-11-13; earlier history of this code is in fennec's repository. Declared 2026-11-13.
 - T4: no end-to-end test against third-party MCP servers; the client is tested against scripted stdio servers and local HTTP listeners. Declared 2026-11-13.
+- T2: coverage runs locally in `just evidence` before each release, not in CI: the CI runs on the GitHub mirror and the Actions minutes are shared by all the maintainer's repositories. Declared 2026-11-14.

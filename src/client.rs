@@ -350,7 +350,7 @@ fn http_post(
         .get("mcp-session-id")
         .and_then(|value| value.to_str().ok())
     {
-        *session_id = Some(session.to_string());
+        session_id.replace(session.to_string());
     }
     let content_type = response
         .headers()
