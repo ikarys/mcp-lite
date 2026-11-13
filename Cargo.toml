@@ -7,7 +7,7 @@ authors = ["Ikarys <bikarys@proton.me>"]
 repository = "https://github.com/ikarys/mcp-lite"
 description = "A small synchronous Model Context Protocol client with a lazy tool layer"
 readme = "README.md"
-keywords = ["mcp", "model-context-protocol", "llm", "agent", "tools"]
+keywords = ["mcp", "context-protocol", "llm", "agent", "tools"]
 categories = ["api-bindings", "development-tools", "network-programming"]
 
 [features]
